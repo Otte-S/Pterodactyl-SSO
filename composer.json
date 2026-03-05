@@ -1,12 +1,12 @@
 {
-    "name": "wemx/sso-pterodactyl",
-    "description": "Allows clients from WemX login to their Pterodactyl account with a single redirect",
+    "name": "builtbyotte/pterodactyl-sso",
+    "description": "Allows clients from various applications login to their Pterodactyl account with a single redirect",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mubeen Ullah",
-            "email": "mubeen@wemx.net"
+            "name": "BuiltByOtte.com",
+            "email": "contact@builtbyotte.com"
         }
     ],
     "minimum-stability": "stable",
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "WemX\\Sso\\": "src/"
+            "BuiltByOtte\\Sso\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "WemX\\Sso\\SsoServiceProvider"
+                "BuiltByOtte\\Sso\\SsoServiceProvider"
             ]
         }
     }
